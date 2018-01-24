@@ -121,6 +121,7 @@ a:hover,a:focus{
 .btn-more{
 	display: block;
 	padding-top: 3%;
+
 }
 .btn-more span{
 	color: white;
@@ -143,6 +144,7 @@ a:hover,a:focus{
 	background-image: url(../img/home1.jpg);
 	height: 100vh;
 	padding-bottom: 55%;
+
 }
 ul.socialLinks{
 	list-style: none;
@@ -175,8 +177,13 @@ ul.socialLinks li a i:hover{
 	}
 }
 .main{
+
 	
 	padding: 9% 8%;
+
+	margin-top: 15%;
+	padding: 0% 8%;
+
 }
 .main h1{
 	font-size: 8em;
@@ -195,6 +202,7 @@ ul.socialLinks li a i:hover{
 	font-size: 1.2em;
 	font-weight: 500;
 	line-height: 1em;
+
 	margin: 3% 0;
 	background-color: transparent;
 	border: 3px solid #fff;
@@ -226,6 +234,7 @@ ul.socialLinks li a i:hover{
 	padding-top: 2%;
 }
 .perfil-photo{
+
 	width: 53%;
 	display: inline-block;
 	
@@ -233,6 +242,7 @@ ul.socialLinks li a i:hover{
 	/*border: 2px solid #E2E2E2;*/
 	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+	display: inline-block;
 }
 #about-me .text-perfil{
 	padding: 0 20%;
@@ -352,6 +362,7 @@ ul.socialLinks li a i:hover{
 
 /*skills*/
 #skills{
+
 	background-color:/* #eee9f2;*/#fff;
 	text-align: center;
 	padding: 80px 50px 60px 50px;
@@ -383,7 +394,9 @@ ul.socialLinks li a i:hover{
 }
 .bg-circle{
 	border-radius:100px;
+
 	background-color: #eff5f5;
+
 	    width: 105px;
     padding: 29px;
 	display: inline-block;
@@ -413,7 +426,9 @@ ul.socialLinks li a i:hover{
 #hoverme i{
 	font-size: 4em;
 	color: #34b3a0;
+
 	background:#eff5f5;
+
 	padding: 23px 35px;
 	border-radius: 100%;
 }
@@ -714,6 +729,7 @@ footer{
 	bottom: -80px;
 	left: 0;
 	background:/*#eee9f2*/ #fff;
+
 	position: absolute;
 }
 #loquehago:after {
@@ -739,7 +755,7 @@ footer{
 	content: "";
 	bottom: -80px;
 	left: 0;
-	background:/*#F2EEE9*/ #fff;
+	background:/*#F2EEE9*/#F7FBFB;
 	position: absolute;
 }
 
@@ -754,11 +770,13 @@ footer{
 	bottom: -80px;
 	left: 0;
 	background: /*#F2EEE9*/ #F7FBFB;
+
 	position: absolute;
 }
 
 #contact:before{
 	background-color: #7ab798; /*#a8d7bf*/
+
 	-moz-transform: skewY(-5deg);
 	-ms-transform: skewY(-5deg);
 	-webkit-transform: skewY(-5deg);
@@ -769,7 +787,8 @@ footer{
 	top: -60px;
 	left: 0;
 	position: absolute;
-	
+
+
 }
 
 /*media-queries*/
